@@ -10,8 +10,9 @@ public class Prog {
     public static String chek (String c){
         String b ="";
         for(int i=c.length()-1 ; i>=0 ; i--) {
-            char m=c.charAt(i);
-            b+=m;
+            StringBuilder sb= new StringBuilder();
+            sb.append(c.charAt(i));
+            b+=sb;
         }
         if(b.equals(c) ) {
             return "слово палина";

@@ -12,7 +12,7 @@ public class Prog {
         for(int i=c.length()-1 ; i>=0 ; i--) {
             StringBuilder sb= new StringBuilder();
             sb.append(c.charAt(i));
-            b+=sb;
+            b += sb;
         }
         if(b.equals(c) ) {
             return "слово палина";
